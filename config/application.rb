@@ -14,6 +14,7 @@ module Gh100Api
     config.generators do |g|
       g.stylesheets false
       g.javascripts false
+      g.test_framework false
       g.helper false
       g.assets false
       g.view_specs false
